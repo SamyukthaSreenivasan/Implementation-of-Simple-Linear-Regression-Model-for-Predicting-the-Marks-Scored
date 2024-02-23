@@ -51,6 +51,7 @@ regressor = LinearRegression()
 regressor.fit(x_train,y_train)
 y_pred = regressor.predict(x_test)
 print(y_pred)
+```
 print(y_test)
 #Graph plot for training data
 plt.scatter(x_train,y_train,color='black')
@@ -72,6 +73,7 @@ mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
+```
 ```
 
 ## Output:
