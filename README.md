@@ -26,8 +26,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: Samyuktha S
 RegisterNumber: 212222240089
 */
-```
-```
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,6 +49,8 @@ regressor.fit(x_train,y_train)
 y_pred = regressor.predict(x_test)
 print(y_pred)
 print(y_test)
+```
+```
 #Graph plot for training data
 plt.scatter(x_train,y_train,color='black')
 plt.plot(x_train,regressor.predict(x_train),color='blue')
