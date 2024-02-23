@@ -52,6 +52,7 @@ regressor.fit(x_train,y_train)
 y_pred = regressor.predict(x_test)
 print(y_pred)
 ```
+```
 print(y_test)
 #Graph plot for training data
 plt.scatter(x_train,y_train,color='black')
@@ -64,7 +65,6 @@ plt.show()
 plt.scatter(x_test,y_test,color='black')
 plt.plot(x_train,regressor.predict(x_train),color='red')
 plt.title("Hours vs Scores(Testing set)")
-```
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
