@@ -29,8 +29,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: Samyuktha S
 RegisterNumber: 212222240089
 */
-```
-```
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
